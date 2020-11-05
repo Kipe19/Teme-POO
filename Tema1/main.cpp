@@ -12,9 +12,11 @@ class Masina{
       Masina(Masina&);
       ~Masina();
       void polueaza() const;
+      string get_combustibil();
+  
 
 };
-
+  
 Masina::Masina(std::string producator = " ", std::string nr_inmatriculare= " ", std::string combustibil = " ",
                double consum=0, long long kilometraj=0, int an_fabricatie=0)
                {
@@ -44,6 +46,22 @@ Masina::~Masina()
 {
     std::cout<<endl<<"Drumuri bune, colegu!\n";
 }
+string Masina::get_combustibil()
+{
+  return combustibil;
+}
+class Client
+{
+  string Nume;
+  string combustibil_preferat;
+}
+void Client::verifica(Masina &masina)
+{       
+  if(masina.get_combustibil()!=combustibil_preferat)
+           return false;
+  else if(
+     
+   
 void Masina::polueaza() const
 {
     std::cout<<endl<<"Oare ai voie sa mergi cu ea in Bucuresti?"<<endl;
