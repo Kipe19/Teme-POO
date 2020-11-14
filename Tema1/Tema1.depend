@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1603633407 source:c:\users\kipe\documents\c++\tema1\main.cpp
-	<iostream>
-
-1603628123 c:\users\kipe\documents\c++\tema1\masina.h
-	<string>
-	<iostream>
-
