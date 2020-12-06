@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1607270544 source:c:\users\kipe\documents\c++\tema1- modificari\main.cpp
+	<iostream>
+	<ostream>
+	<cstring>
+	"Masina.h"
+	"Client.h"
+	"Duba.h"
+	<memory>
+
+1607269079 c:\users\kipe\documents\c++\tema1- modificari\include\masina.h
+	<string>
+
+1607267977 c:\users\kipe\documents\c++\tema1- modificari\include\client.h
+	<string>
+	<iostream>
+	"Masina.h"
+
+1607267773 source:c:\users\kipe\documents\c++\tema1- modificari\src\client.cpp
+	"Client.h"
+
+1607270694 c:\users\kipe\documents\c++\tema1- modificari\include\duba.h
+	"Masina.h"
+
+1607269010 source:c:\users\kipe\documents\c++\tema1- modificari\src\masina.cpp
+	"Masina.h"
+	<string>
+	<iostream>
+
+1607270565 source:c:\users\kipe\documents\c++\tema1- modificari\src\duba.cpp
+	"Duba.h"
+	<iostream>
+
