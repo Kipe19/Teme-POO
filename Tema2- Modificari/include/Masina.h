@@ -1,6 +1,7 @@
 #ifndef MASINA_H
 #define MASINA_H
 #include <string>
+#include <stdexcept>
 
 class Masina
 {
@@ -22,7 +23,15 @@ public:
     double get_consum() const;
     long long get_kilometraj() const;
     int get_an_fabricatie() const;
+    void set_kilometraj(long long kilometraj);
+    void set_an_fabricatie(int an_fabricatie);
 
+};
+
+class ExceptieMasina: public std::logic_error
+{
+    public:
+    ExceptieMasina(std::string mesaj);
 };
 
 #endif // MASINA_H

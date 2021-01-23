@@ -31,3 +31,36 @@
 	"Duba.h"
 	<iostream>
 
+1607270970 source:c:\users\kipe\desktop\tema2--modificari-main\src\client.cpp
+	"Client.h"
+
+1607270970 c:\users\kipe\desktop\tema2--modificari-main\include\client.h
+	<string>
+	<iostream>
+	"Masina.h"
+
+1611401871 c:\users\kipe\desktop\tema2--modificari-main\include\masina.h
+	<string>
+	<stdexcept>
+
+1607270970 source:c:\users\kipe\desktop\tema2--modificari-main\src\duba.cpp
+	"Duba.h"
+	<iostream>
+
+1611397935 c:\users\kipe\desktop\tema2--modificari-main\include\duba.h
+	"Masina.h"
+
+1611403130 source:c:\users\kipe\desktop\tema2--modificari-main\src\masina.cpp
+	"Masina.h"
+	<string>
+	<iostream>
+
+1611403183 source:c:\users\kipe\desktop\tema2--modificari-main\main.cpp
+	<iostream>
+	<ostream>
+	<cstring>
+	"Masina.h"
+	"Client.h"
+	"Duba.h"
+	<memory>
+
