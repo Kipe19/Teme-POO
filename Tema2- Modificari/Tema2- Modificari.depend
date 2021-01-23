@@ -64,3 +64,44 @@
 	"Duba.h"
 	<memory>
 
+1607270970 source:c:\users\kipe\documents\github\teme-poo\tema2- modificari\src\client.cpp
+	"Client.h"
+
+1607270970 c:\users\kipe\documents\github\teme-poo\tema2- modificari\include\client.h
+	<string>
+	<iostream>
+	"Masina.h"
+
+1611406802 c:\users\kipe\documents\github\teme-poo\tema2- modificari\include\masina.h
+	<string>
+	<stdexcept>
+
+1611405729 c:\users\kipe\documents\github\teme-poo\tema2- modificari\include\carbuilder.h
+	"Masina.h"
+
+1607270970 source:c:\users\kipe\documents\github\teme-poo\tema2- modificari\src\duba.cpp
+	"Duba.h"
+	<iostream>
+
+1611397935 c:\users\kipe\documents\github\teme-poo\tema2- modificari\include\duba.h
+	"Masina.h"
+
+1611405877 source:c:\users\kipe\documents\github\teme-poo\tema2- modificari\src\carbuilder.cpp
+	"CarBuilder.h"
+	"Masina.h"
+
+1611406222 source:c:\users\kipe\documents\github\teme-poo\tema2- modificari\src\masina.cpp
+	"Masina.h"
+	<string>
+	<iostream>
+
+1611406222 source:c:\users\kipe\documents\github\teme-poo\tema2- modificari\main.cpp
+	<iostream>
+	<ostream>
+	<cstring>
+	"Masina.h"
+	"Client.h"
+	"Duba.h"
+	<memory>
+	"CarBuilder.h"
+

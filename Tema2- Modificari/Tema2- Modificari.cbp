@@ -34,10 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/CarBuilder.h" />
 		<Unit filename="include/Client.h" />
 		<Unit filename="include/Duba.h" />
 		<Unit filename="include/Masina.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CarBuilder.cpp" />
 		<Unit filename="src/Client.cpp" />
 		<Unit filename="src/Duba.cpp" />
 		<Unit filename="src/Masina.cpp" />

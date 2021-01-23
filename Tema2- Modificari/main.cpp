@@ -9,6 +9,7 @@ ping me dacă ai nevoie de ajutor (2021-01-16)" */
 #include "Client.h"
 #include "Duba.h"
 #include <memory>
+#include "CarBuilder.h"
 
 int main()
 {
@@ -67,7 +68,16 @@ if(std::dynamic_pointer_cast<Duba>(x))         // aici scchimbam x cu d daca vre
         std::cout<<"Duba d nu polueaza\n";
 }
 else
-    std::cout<<"Nu este duba";
+    std::cout<<"Nu este duba \n";
+
+
+
+    std::cout<<"                BUILDER \n";
+
+    CarBuilder p;
+    Masina y = p.an_fabricatie(2021).producator("BMW").combustibil("Benzina").consum(10.9).nr_inmatriculare("B 22 BMW").kilometraj(1000).build();
+
+    std::cout<<y;
 
 }
 

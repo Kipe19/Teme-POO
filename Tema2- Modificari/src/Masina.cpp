@@ -14,8 +14,18 @@ Masina& Masina::operator=(Masina& other)
     an_fabricatie = other.an_fabricatie;
     return *this;
 }
+Masina::Masina(){};
 Masina::~Masina()
 {
+}
+Masina::Masina(Masina&& masina)
+{
+    this->producator = masina.producator;
+    this->nr_inmatriculare= masina.nr_inmatriculare;
+    this->combustibil= masina.combustibil;
+    this->consum= masina.consum;
+    this->kilometraj=masina.kilometraj;
+    this->an_fabricatie=masina.an_fabricatie;
 }
 std::ostream& operator<<(std::ostream& out, const Masina& m)
 {

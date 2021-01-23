@@ -2,6 +2,7 @@
 #define MASINA_H
 #include <string>
 #include <stdexcept>
+class CarBuilder;
 
 class Masina
 {
@@ -13,8 +14,10 @@ protected:
     long long kilometraj;
     int an_fabricatie;
 public:
+    Masina();
     Masina(std::string, std::string, std::string, double, long long,int);
     Masina(Masina&);
+    Masina (Masina&&);
     Masina& operator=(Masina& other);
     ~Masina();
     friend std::ostream& operator<<(std::ostream& out, const Masina& m);
@@ -25,6 +28,7 @@ public:
     int get_an_fabricatie() const;
     void set_kilometraj(long long kilometraj);
     void set_an_fabricatie(int an_fabricatie);
+    friend class CarBuilder;
 
 };
 
